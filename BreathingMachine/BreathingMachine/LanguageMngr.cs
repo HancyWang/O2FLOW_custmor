@@ -21,7 +21,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "设置";
             }
         }
         public string help()
@@ -36,7 +37,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Help";
             }
         }
 
@@ -52,7 +54,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Soft ver.：";
             }
         }
 
@@ -68,7 +71,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Language";
             }
         }
 
@@ -84,7 +88,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Chinese";
             }
         }
 
@@ -100,7 +105,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "English";
             }
         }
 
@@ -116,7 +122,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Import Data";
             }
         }
         public string exportData()
@@ -131,7 +138,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Export Data";
             }
         }
 
@@ -147,7 +155,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Advance Mode";
             }
         }
 
@@ -163,7 +172,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Show All Work Data";
             }
         }
         public string timePeriodSet()
@@ -174,11 +184,12 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Period Setting";
+                return "Time Setting";
             }
             else
             {
-                return "";
+                //return "";
+                return "Time Setting";
             }
         }
 
@@ -190,11 +201,12 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Startting Date";
+                return "Start Date";
             }
             else
             {
-                return "";
+                //return "";
+                return "Start Date";
             }
         }
         public string endDate()
@@ -205,11 +217,12 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Ending Date";
+                return "End Date";
             }
             else
             {
-                return "";
+                //return "";
+                return "End Date";
             }
         }
 
@@ -225,7 +238,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Basic Info.";
             }
         }
 
@@ -241,7 +255,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Usage Time";
             }
         }
 
@@ -257,7 +272,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Detail Charts";
             }
         }
         public string alarmInfo()
@@ -272,7 +288,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Alarm Info";
             }
         }
 
@@ -288,7 +305,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Work Info";
             }
         }
 
@@ -304,7 +322,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Name：";
             }
         }
 
@@ -320,7 +339,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Age：";
             }
         }
         public string gender()
@@ -335,7 +355,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Gender：";
             }
         }
 
@@ -351,7 +372,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Height：";
             }
         }
 
@@ -367,7 +389,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Weight：";
             }
         }
         public string patient_info()
@@ -382,7 +405,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Patient Info";
             }
         }
 
@@ -398,7 +422,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Phone No.：";
             }
         }
 
@@ -414,7 +439,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Adress：";
             }
         }
 
@@ -430,7 +456,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Edit";
             }
         }
 
@@ -446,7 +473,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Generate Report";
             }
         }
 
@@ -458,11 +486,12 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Machine Type：";
+                return "Model No.：";
             }
             else
             {
-                return "";
+                //return "";
+                return "Model No.：";
             }
         }
 
@@ -474,11 +503,12 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Euipment Info";
+                return "Equipment Info";
             }
             else
             {
-                return "";
+                //return "";
+                return "Equipment Info";
             }
         }
 
@@ -494,7 +524,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "male";
             }
         }
 
@@ -510,7 +541,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "female";
             }
         }
 
@@ -526,7 +558,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Time Period";
             }
         }
 
@@ -542,7 +575,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Please enter the right username and password！";
             }
         }
 
@@ -558,7 +592,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "ok";
             }
         }
 
@@ -574,7 +609,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "cancle";
             }
         }
 
@@ -590,7 +626,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "No data!";
             }
         }
 
@@ -606,7 +643,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Please import data first!";
             }
         }
 
@@ -622,7 +660,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "age";
             }
         }
         public static string errHeight()
@@ -637,7 +676,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "height";
             }
         }
         public static string errWeight()
@@ -652,7 +692,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "weight";
             }
         }
         public static string errPhoneNum()
@@ -667,7 +708,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "phoneNo.";
             }
         }
         
@@ -683,7 +725,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Name and age are necessary information,please fill up!";
             }
         }
         public string showGenderValue(string gender)
@@ -704,7 +747,8 @@ namespace BreathingMachine
                 }
                 else
                 {
-                    return "";
+                    //return "";
+                    return "male";
                 }
             }
             else if (gender == "女" || gender == "female")
@@ -719,7 +763,8 @@ namespace BreathingMachine
                 }
                 else
                 {
-                    return "";
+                    //return "";
+                    return "female";
                 }
             }
             else
@@ -740,7 +785,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Date";
             }
         }
         public string alarm_info()
@@ -755,7 +801,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Alarm Info";
             }
         }
 
@@ -771,7 +818,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Running Mode";
             }
         }
 
@@ -787,7 +835,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Alarm Code";
             }
         }
 
@@ -803,7 +852,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Alarm value 1";
             }
         }
         public string alarm_value_H()
@@ -818,7 +868,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Alarm value 2";
             }
         }
 
@@ -834,7 +885,8 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                //return "";
+                return "Please fill in the right：";
             }
         }
 
@@ -850,7 +902,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Generate report sucessful!";
             }
         }
         public static string pls_complete_patient_info()
@@ -865,7 +917,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Please complete patient informations!";
             }
         }
 
@@ -881,7 +933,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Start date beyond end date,please choose again!";
             }
         }
 
@@ -897,7 +949,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "File export completed!";
             }
         }
         public static string pls_choose_time()
@@ -912,7 +964,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Please choose time!";
             }
         }
         public static string fail_to_get_alarmFile_info()
@@ -927,7 +979,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fail to get alarm file info!";
             }
         }
 
@@ -943,7 +995,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Please choose the right folder!";
             }
         }
         public static string open_alarmFile_fail()
@@ -958,7 +1010,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Open alarm file fail!";
             }
         }
         public static string pls_ensure_import_data_and_choose_time()
@@ -973,7 +1025,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Please make sure already import data and choose time!";
             }
         }
 
@@ -990,7 +1042,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "You are already in engineer mode!";
             }
         }
 
@@ -1006,7 +1058,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Welcome to engineer mode!";
             }
         }
 
@@ -1018,11 +1070,11 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return Convert.ToBoolean(bt) ? "Child" : "Adault";
+                return Convert.ToBoolean(bt) ? "Paediatric" : "Adult";
             }
             else
             {
-                return "";
+                return Convert.ToBoolean(bt) ? "Paediatric" : "Adult";
             }
         }
 
@@ -1050,7 +1102,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return Convert.ToBoolean(bt) ? "Atomization" : "Humidifying";
             }
         }
         public  String set_temp()
@@ -1065,7 +1117,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Set temperature";
             }
         }
         public  String set_flow()
@@ -1080,7 +1132,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Set flow";
             }
         }
         public  String set_high_oxy_alarm()
@@ -1095,7 +1147,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Set High Oxy Alarm";
             }
         }
         public  String set_low_oxy_alarm()
@@ -1110,7 +1162,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Set Low Oxy Alarm";
             }
         }
         public  String set_atomiz_level()
@@ -1125,7 +1177,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Set Atomiz Level";
             }
         }
         public  String set_atomiz_time()
@@ -1140,7 +1192,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Set Atomiz Time";
             }
         }
          public  String set_adault_or_child()
@@ -1151,11 +1203,11 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Set Adault or Child";
+                return "Set Adult or Paediatric";
             }
             else
             {
-                return "";
+                return "Set Adult or Paediatric";
             }
         }
         public  String data_patient_tmp()
@@ -1170,7 +1222,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Patient Temperature";
             }
         }
         public  String data_air_outlet_tmp()
@@ -1185,7 +1237,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Air Outlet Temperature";
             }
         }
         public  String data_heating_plate_tmp()
@@ -1200,7 +1252,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Heating Plate Temperature";
             }
         }
         public  String data_enviroment_tmp()
@@ -1215,7 +1267,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Enviroment Temperature";
             }
         }
 
@@ -1231,7 +1283,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Driving Board temperature";
             }
         }
 
@@ -1247,7 +1299,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Flow";
             }
         }
 
@@ -1263,7 +1315,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Dewpoint Temperature";
             }
         }
 
@@ -1275,11 +1327,11 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Oxy Concentration";
+                return "Oxygen Concentration";
             }
             else
             {
-                return "";
+                return "Oxygen Concentration";
             }
         }
         public  String data_air_pressure()
@@ -1294,7 +1346,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Air Pressure";
             }
         }
         public  String data_loop_type()
@@ -1309,7 +1361,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Loop Type";
             }
         }
         public  String data_fault_statue1()
@@ -1324,7 +1376,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 1";
             }
         }
 
@@ -1340,7 +1392,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 2";
             }
         }
         public  String data_fault_statue3()
@@ -1355,7 +1407,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 3";
             }
         }
         public  String data_fault_statue4()
@@ -1370,7 +1422,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 4";
             }
         }
         public  String data_fault_statue5()
@@ -1385,7 +1437,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 5";
             }
         }
         public  String data_fault_statue6()
@@ -1400,7 +1452,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 6";
             }
         }
         public  String data_fault_statue7()
@@ -1415,7 +1467,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 7";
             }
         }
         public  String data_fault_statue8()
@@ -1430,7 +1482,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 8";
             }
         }
         public  String data_fault_statue9()
@@ -1445,7 +1497,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 9";
             }
         }
         public  String data_fault_statue10()
@@ -1460,7 +1512,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 10";
             }
         }
         public  String data_fault_statue11()
@@ -1475,7 +1527,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 11";
             }
         }
         public  String data_fault_statue12()
@@ -1490,7 +1542,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fault Statue 12";
             }
         }
         public  String data_atomiz_DAC_L()
@@ -1505,7 +1557,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Atomiz DAC L";
             }
         }
         public  String data_atomiz_DAC_H()
@@ -1520,7 +1572,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Atomiz DAC H";
             }
         }
         public  String data_atomiz_ADC_L()
@@ -1535,7 +1587,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Atomiz ADC L";
             }
         }
         public  String data_atomiz_ADC_H()
@@ -1550,7 +1602,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Atomiz ADC H";
             }
         }
         public  String data_loop_heating_PWM_L()
@@ -1565,7 +1617,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Loop Heating PWM L";
             }
         }
         public  String data_loop_heating_PWM_H()
@@ -1580,7 +1632,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Loop Heating PWM H";
             }
         }
         public  String data_loop_heating_ADC_L()
@@ -1595,7 +1647,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Loop Heating ADC L";
             }
         }
         public  String data_loop_heating_ADC_H()
@@ -1610,7 +1662,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Loop Heating ADC H";
             }
         }
         public  String data_heating_plate_PWM_L()
@@ -1625,7 +1677,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Heating Plate PWM L";
             }
         }
         public  String data_heating_plate_PWM_H()
@@ -1640,7 +1692,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Heating Plate PWM H";
             }
         }
         public  String data_heating_plate_ADC_L()
@@ -1655,7 +1707,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Heating Plate ADC L";
             }
         }
         public  String data_heating_plate_ADC_H()
@@ -1670,7 +1722,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Heating Plate ADC H";
             }
         }
         public  String data_main_motor_drive_L()
@@ -1685,7 +1737,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Main motor driver L";
             }
         }
         public  String data_main_motor_drive_H()
@@ -1700,7 +1752,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Main motor driver H";
             }
         }
 
@@ -1716,7 +1768,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Main motor speed L";
             }
         }
         public  String data_main_motor_speed_H()
@@ -1731,7 +1783,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Main motor speed H";
             }
         }
         public  String data_press_sensor_ADC_L()
@@ -1746,7 +1798,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Press sensor ADC L";
             }
         }
         public  String data_press_sensor_ADC_H()
@@ -1761,7 +1813,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Press sensor ADC H";
             }
         }
         public  String data_waterlevel_HADC_L()
@@ -1776,7 +1828,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Water level HADC L";
             }
         }
         public  String data_waterlevel_HADC_H()
@@ -1791,7 +1843,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Water level HADC H";
             }
         }
         public  String data_waterlevel_LADC_L()
@@ -1806,7 +1858,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Water level LADC L";
             }
         }
         public  String data_waterlevel_LADC_H()
@@ -1821,7 +1873,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Water level LADC H";
             }
         }
         public  String data_fan_driver_L()
@@ -1836,7 +1888,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fan driver L";
             }
         }
         public  String data_fan_driver_H()
@@ -1851,7 +1903,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fan driver H";
             }
         }
         public  String data_fan_speed_L()
@@ -1866,7 +1918,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fan speed L";
             }
         }
         public  String data_fan_speed_H()
@@ -1881,7 +1933,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fan speed H";
             }
         }
 
@@ -1897,7 +1949,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Main motor tmp value L";
             }
         }
 
@@ -1913,7 +1965,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Main motor tmp value H";
             }
         }
 
@@ -1929,7 +1981,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Atomization";
             }
         }
         public String humidification()
@@ -1944,7 +1996,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Humidification";
             }
         }
 
@@ -1961,7 +2013,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Overheat";
             }
         }
 
@@ -1978,7 +2030,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Power Out";
             }
         }
 
@@ -1996,7 +2048,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Check Chamber";
             }
         }
 
@@ -2014,7 +2066,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Lack of water";
             }
         }
 
@@ -2034,7 +2086,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Temp. Probe uninstalled";
             }
         }
 
@@ -2053,7 +2105,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Tube uninstalled";
             }
         }
 
@@ -2070,7 +2122,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "CTube not match";
             }
         }
         //堵塞
@@ -2088,7 +2140,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Check for blockages";
             }
         }
 
@@ -2106,7 +2158,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Oxygen too high";
             }
         }
 
@@ -2124,7 +2176,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Oxygen too low";
             }
         }
 
@@ -2143,7 +2195,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Flow over range";
             }
         }
 
@@ -2162,7 +2214,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Tempe. Over Range";
             }
         }
 
@@ -2179,7 +2231,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Tem.Probe Out";
             }
         }
 
@@ -2196,7 +2248,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "SD Card Uninstalled";
             }
         }
    
@@ -2213,7 +2265,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E1";
             }
         }
 
@@ -2230,7 +2282,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E2";
             }
         }
 
@@ -2248,7 +2300,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E3";
             }
         }
 
@@ -2266,7 +2318,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E4";
             }
         }
 
@@ -2283,7 +2335,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E5";
             }
         }
 
@@ -2300,7 +2352,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E6";
             }
         }
 
@@ -2335,7 +2387,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E7";
             }
         }
 
@@ -2352,7 +2404,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "System failure E8";
             }
         }
 
@@ -2369,7 +2421,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Oxygen concentration sensor fault";
             }
         }
         
@@ -2385,7 +2437,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Flow sensor fault";
             }
         }
         
@@ -2401,7 +2453,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Enviroment temperature fault";
             }
         }
         
@@ -2417,7 +2469,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Driving board temperature fault";
             }
         }
         
@@ -2433,7 +2485,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Heating plate temperature fault";
             }
         }
         
@@ -2449,7 +2501,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Fan fault";
             }
         }
         
@@ -2465,7 +2517,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "EEPROM verification failed";
             }
         }
         
@@ -2481,7 +2533,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Air outlet sensor fault";
             }
         }
         
@@ -2497,7 +2549,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Patien temperature sensor fault";
             }
         }
         
@@ -2513,7 +2565,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Unknow error";
             }
         }
         public String adault()
@@ -2524,11 +2576,11 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "adault";
+                return "adult";
             }
             else
             {
-                return "";
+                return "adult";
             }
         }
         public String child()
@@ -2539,11 +2591,11 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "child";
+                return "paediatric";
             }
             else
             {
-                return "";
+                return "paediatric";
             }
         }
         public String top_page()
@@ -2558,7 +2610,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Top Page";
             }
         }
         public String end_page()
@@ -2573,7 +2625,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "End Page";
             }
         }
         public String prev_page()
@@ -2588,7 +2640,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Prev Page";
             }
         }
         public String next_page()
@@ -2603,7 +2655,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Next Page";
             }
         }
 
@@ -2619,7 +2671,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Jump to:";
             }
         }
         public String charts()
@@ -2634,7 +2686,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Charts";
             }
         }
 
@@ -2650,7 +2702,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Usage Time:";
             }
         }
         public String title_patient_tmp()
@@ -2665,7 +2717,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Patient Temperature:";
             }
         }
         
@@ -2681,7 +2733,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Air Outlet Temperature:";
             }
         }
         public String title_flow()
@@ -2696,7 +2748,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Flow:";
             }
         }
         public String title_oxy_concentration()
@@ -2711,7 +2763,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Oxygen Concentration:";
             }
         }
 
@@ -2727,7 +2779,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Dewpoint Temperature:";
             }
         }
 
@@ -2743,22 +2795,22 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Soft version";
             }
         }
         public String app_name()
         {
             if (m_language == LANGUAGE.CHINA)
             {
-                return "永胜宏碁数据分析软件";
+                return "O2FLO数据读取软件";
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Vincent Medical Data Analyser Software";
+                return "O2FLO Data Reader";
             }
             else
             {
-                return "";
+                return "O2FLO Data Reader";
             }
         }
 
@@ -2775,7 +2827,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Lack of work information file!";
             }
         }
 
@@ -2791,7 +2843,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "Lack of alarm information file!";
             }
         }
         //No alarm information in alarm file
@@ -2807,7 +2859,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "No data in alarm file!";
             }
         }
 
@@ -2823,7 +2875,7 @@ namespace BreathingMachine
             }
             else
             {
-                return "";
+                return "No data in the time span!";
             }
         }
     }
