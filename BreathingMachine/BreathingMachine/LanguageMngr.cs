@@ -2210,11 +2210,11 @@ namespace BreathingMachine
             else if (m_language == LANGUAGE.ENGLISH)
             {
                 //return "Temp.overrange";
-                return "Tempe. Over Range";
+                return "Temp. Over Range";
             }
             else
             {
-                return "Tempe. Over Range";
+                return "Temp. Over Range";
             }
         }
 
@@ -2227,11 +2227,11 @@ namespace BreathingMachine
             }
             else if (m_language == LANGUAGE.ENGLISH)
             {
-                return "Tem.Probe Out";
+                return "Temp. Probe out";
             }
             else
             {
-                return "Tem.Probe Out";
+                return "Temp. Probe out";
             }
         }
 
